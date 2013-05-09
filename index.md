@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 目录
-tag: blogging
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
