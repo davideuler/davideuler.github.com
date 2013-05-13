@@ -3,7 +3,7 @@ layout: post
 title:  "如何使用Jekyll"
 date:   2013-05-08 01:14:27
 tags: blogging
-categories: jekyll update
+categories:  jekyll update
 ---
 #1.jekyll介绍
 Jekyll是github提供的一个静态网站生成器，可以生成类blog的网站。由于是静态网站，不提供评论功能。
