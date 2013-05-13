@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Euler(David L Euler)的笔记本
+title : Euler(David L Euler)的记事本
 tagline: Site Tagline
 author :
   name : David L Euler

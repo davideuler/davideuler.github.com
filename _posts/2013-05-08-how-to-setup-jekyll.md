@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "如何使用Jekyll"
+title:  "如何使用Jekyll(像hacker一样写博客)"
+tags:	blogging
 date:   2013-05-08 01:14:27
-tags: blogging
+categories: jekyll update
 categories: jekyll update
 ---
 #1.jekyll介绍
@@ -42,12 +43,31 @@ jekyll -w serve
 
 #4.增加博客/网站内容
 可以按照yyyy-mm-dd-title.md的文件名在_posts目录创建markdwon格式的博客文件，文件写完后：
-
+vi 2013-05-08-how-to-blog-by-jekyll.md
 jekyll build
 
 jekyll -w serve 
 
 即可访问到新加的文件。
+
+#5.使用github pages来写博客
+github pages有两种，一种是每一个project pages，可以通过project来访问，比如
+http://davideuler.github.com/projectname/
+
+这种page比如在orphan branch上，参考：
+[https://help.github.com/articles/creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually)
+
+另一种是user pages, 即一个用户的page，如：
+[http://davideuler.github.com/](http://davideuler.github.com/)
+
+要创建user page，必须创建一个以user名字加.github.com命名的repository，如：
+davideuler.github.com
+然后将pages push到这个repository的master branch中。
+
+github pages实际上是jekyll render出来的页面。
+
+#6.使用jekyll bootstrap在github上创建个人博客
+[jekyllbootstrap.com](http://jekyllbootstrap.com/)
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
