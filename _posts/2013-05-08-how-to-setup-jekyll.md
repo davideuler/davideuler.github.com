@@ -49,25 +49,5 @@ jekyll -w serve
 
 即可访问到新加的文件。
 
-#5.使用github pages来写博客
-
-github pages有两种，一种是每一个project pages，可以通过project来访问，比如 http://davideuler.github.com/projectname/
-
-这种page比如在orphan branch上，参考： https://help.github.com/articles/creating-project-pages-manually
-
-另一种是user pages, 即一个用户的page，如： http://davideuler.github.com/
-
-要创建user page，必须创建一个以user名字加.github.com命名的repository，如： davideuler.github.com 然后将pages push到这个repository的master branch中。
-
-github pages实际上是jekyll render出来的页面。
-
-#6.使用jekyll bootstrap在github上创建个人博客
-
-jekyllbootstrap.com
-
-#7.使用命令行来增加博客内容
-
-rake post title=”how to setup jekyll”， 在_post目录下会自动会创建一个文件。
-
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
