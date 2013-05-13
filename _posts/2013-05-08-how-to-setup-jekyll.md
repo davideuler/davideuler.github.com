@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "如何使用Jekyll"
+title:  "如何使用Jekyll(像hacker一样写博客)"
 date:   2013-05-08 01:14:27
 tags: blogging
 categories:  jekyll update
